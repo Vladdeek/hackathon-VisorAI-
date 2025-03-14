@@ -1,0 +1,38 @@
+.upload-zone {
+	background-color: #fbfbfb;
+	border: 2px dashed #aaa;
+	border-radius: 25px;
+	padding: 20px;
+	transition: 0.2s;
+}
+
+.upload-zone.dragging {
+	background-color: #f6e6ff;
+	border: 2px dashed #6b5ef0;
+	transition: 0.2s;
+}
+
+.upload-btn {
+	background-color: #6b5ef0;
+	color: #f6e6ff;
+	border-radius: 15px;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size: 23px;
+	&:hover {
+		transform: scale(1.025);
+	}
+	transition: 0.3s;
+}
+.func-btn {
+	background-color: #6b5ef0;
+	color: #f6e6ff;
+	border-radius: 15px;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size: 23px;
+	&:hover {
+		transform: scale(1.025);
+	}
+	transition: 0.3s;
+}

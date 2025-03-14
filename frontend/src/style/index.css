@@ -1,1 +1,7 @@
 @import 'tailwindcss';
+
+hr {
+	background-color: #6b5ef0 !important;
+	height: 1px;
+	border: none;
+}
