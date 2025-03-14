@@ -1,0 +1,23 @@
+.download-btn {
+	border-radius: 10px;
+	background-color: #6b5ef0;
+	border: 1px solid #6b5ef0;
+	color: white;
+	font-size: 18px;
+	&:hover {
+		transform: scale(1.025);
+	}
+	&:active {
+		background-color: white;
+		color: #6b5ef0;
+		transform: scale(0.975);
+	}
+	transition: 0.3s;
+}
+.last-up-comp {
+	background-color: #f6e6ff;
+	border-radius: 25px;
+}
+.small-img {
+	border-radius: 10px;
+}
