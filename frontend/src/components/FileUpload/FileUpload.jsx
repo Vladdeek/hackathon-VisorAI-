@@ -66,7 +66,7 @@ const FileUpload = () => {
 					id='file-input'
 					style={{ display: 'none' }}
 				/>
-				<label htmlFor='file-input my-4' className='upload-btn'>
+				<label htmlFor='file-input' className='upload-btn my-4'>
 					{image ? 'Выбрать другое фото' : 'Выбрать фото'}
 				</label>
 			</div>
