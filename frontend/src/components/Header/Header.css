@@ -1,0 +1,14 @@
+header {
+	background-color: #f6e6ff;
+	border-radius: 25px;
+}
+.header-auth-btn {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 22px;
+	color: #6b5ef0;
+	&:hover {
+		text-decoration: underline;
+	}
+}

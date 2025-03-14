@@ -1,0 +1,63 @@
+.text-input {
+	border: 1px solid black;
+	border-radius: 10px;
+	outline: none;
+	height: 45px;
+	font-size: 24px;
+	margin-bottom: 30px;
+	&:focus {
+		border: 2px solid #6b5ef0;
+		box-shadow: 0px 0px 3px #6b5ef0;
+	}
+	transition: 0.3s;
+}
+.auth-modal {
+	position: relative;
+	border: 1px solid black;
+	border-radius: 25px;
+	background-color: white;
+}
+.submit-btn {
+	border-radius: 10px;
+	background-color: #6b5ef0;
+	border: 1px solid #6b5ef0;
+	color: white;
+	padding: 2px 10px;
+	font-size: 25px;
+	&:hover {
+		transform: scale(1.025);
+	}
+	&:active {
+		background-color: white;
+		color: #6b5ef0;
+		transform: scale(0.975);
+	}
+	transition: 0.3s;
+}
+.auth-title {
+	font-size: 36px;
+}
+.auth-link {
+	font-size: 16px;
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.blur-screen {
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	background-color: rgba(0, 0, 0, 0.125);
+}
+.close-btn {
+	height: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	opacity: 0.75;
+	&:active {
+		transform: scale(0.9);
+	}
+	transition: 0.3s;
+}
